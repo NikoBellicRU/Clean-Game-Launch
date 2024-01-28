@@ -1,14 +1,9 @@
-.applaunchingdetails_SteamDeck_2VNwW,.applaunchingdetails_Divider_1wneT,.applaunchingdetails_ConfigurationHeader_30C5a,.applaunchingdetails_ConfigurationName_XPWRZ {display:none;}
+.applaunchingdetails_ControlOverviewContainer_3ixQR,.applaunchingdetails_Divider_1wneT{display: none;}
 
-@keyframes fadeIn {10% {opacity: 0;} 40% {opacity:1;}}
+.applaunchingdetails_LogoOrTitleContainer_2uvMX {animation-name:slide; animation-duration: 800ms; min-height:100%; height:90vh}
 
-.applaunchingdetails_LogoOrTitleContainer_2uvMX {min-height:100%; margin-top:20%;}
+.applaunchingdetails_LaunchStatus_1ZWPD {text-transform:uppercase; animation:slide2 1.35s;}
 
-.applaunchingdetails_LaunchStatus_1ZWPD {text-transform:uppercase; animation: fadeIn 5s;}
+@keyframes slide {0%{transform:translateY(-1000px) scaleY(2.5) scaleX(.2);transform-origin:50% 0;filter:blur(40vh);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
 
-.applaunchingdetails_LogoSpacerTop_1njPa.applaunchingdetails_LogoSpacerTop_1njPa,.applaunchingdetails_LogoSpacerBottom_ptAD4.applaunchingdetails_LogoSpacerBottom_ptAD4 {height:50vh;}
-
-.applaunchingdetails_TopSection_16H1c,.applaunchingdetails_BottomSection_2HF0k {transition: transform 400ms ease;}
-
-
-
+@keyframes slide2 {0%{transform:translateY(100vh) scaleY(2.5) scaleX(.2);transform-origin:50% 100%;filter:blur(40vh);opacity:0}100%{transform:translateY(0) scaleY(1) scaleX(1);transform-origin:50% 50%;filter:blur(0);opacity:1}}
