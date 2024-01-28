@@ -1,0 +1,14 @@
+.applaunchingdetails_SteamDeck_2VNwW,.applaunchingdetails_Divider_1wneT,.applaunchingdetails_ConfigurationHeader_30C5a,.applaunchingdetails_ConfigurationName_XPWRZ {display:none;}
+
+@keyframes fadeIn {10% {opacity: 0;} 40% {opacity:1;}}
+
+.applaunchingdetails_LogoOrTitleContainer_2uvMX {min-height:100%; margin-top:20%;}
+
+.applaunchingdetails_LaunchStatus_1ZWPD {text-transform:uppercase; animation: fadeIn 5s;}
+
+.applaunchingdetails_LogoSpacerTop_1njPa.applaunchingdetails_LogoSpacerTop_1njPa,.applaunchingdetails_LogoSpacerBottom_ptAD4.applaunchingdetails_LogoSpacerBottom_ptAD4 {height:50vh;}
+
+.applaunchingdetails_TopSection_16H1c,.applaunchingdetails_BottomSection_2HF0k {transition: transform 400ms ease;}
+
+
+

@@ -1,0 +1,13 @@
+{
+	"name": "Clean Game Launch",
+	"author": "Niko",
+	"target": "Library",
+	"version": "v1.0",
+	"description": "Removes the gamepad animation on game launch.",
+	"manifest_version": 9,
+	"inject": {
+		"shared.css": [
+			"bigpicture"
+		]
+	}
+}
